@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 0, 242);
+    color:
+    color-mix(in rgb, red 75, pink 25)
+}
+
+a{
+    color: limegreen;
+
+}
+
+h1:hover {
+    font: 3rem;
+    color: royalblue;
+    background-color: deeppink;
+}
+
+a:hover{
+    font: 6rem;
+    color: burlywood;
+    background-color: rgb(13, 83, 136) ;
+}
+p:hover{
+    color: black;
+    background-color: darkgoldenrod;
+}
+ol:hover {
+    background-color: forestgreen;
+}
