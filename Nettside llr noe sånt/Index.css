@@ -1,0 +1,50 @@
+main{
+    padding: 0;
+    border: 100;
+}
+
+header {
+    background-color: purple;
+    color: whitesmoke;
+    
+}
+
+img{
+    width: 175px;
+}
+
+nav{
+    flex-direction: row;
+    background-color: purple;
+    color: whitesmoke;
+}
+
+a #buttonL {
+    background-color:purple;
+    color: whitesmoke;
+}
+
+a #buttonM {
+    background-color:purple;
+    color: whitesmoke;
+}
+
+a #buttonR {
+    background-color: purple;
+    color: whitesmoke;
+}
+
+:hover a #buttonL {
+    background-color: rgb(94, 0, 94);
+    color: gray;
+}
+
+:hover a #buttonM {
+    background-color: rgb(94, 0, 94);
+    color: gray;
+}
+
+:hover a #buttonR {
+    background-color: rgb(94, 0, 94);
+    color: gray;
+}
