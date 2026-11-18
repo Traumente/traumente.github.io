@@ -103,6 +103,6 @@ footer{
 }
 
 @starting-style {
-    #meny:popover-open {
-        translate: 100% 0;            
-}
+    #meny:popover-open{ 
+        translate: 100% 0;}     
+    }
