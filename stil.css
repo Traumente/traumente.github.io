@@ -106,3 +106,27 @@ footer{
     #meny:popover-open{ 
         translate: 100% 0;}     
     }
+
+    @media (min-width: 800px) {
+    .meny-knapp,
+    .lukk-knapp {
+        display: none;
+    }
+
+    #meny {
+        display: flex;
+        gap: 20px;
+        position: static;            
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: none;
+        translate: none;
+        transition: none;
+    }
+
+    #meny a {
+        font-size: 1rem;
+        padding: 5px;
+    }
+}
