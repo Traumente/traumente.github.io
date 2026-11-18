@@ -95,15 +95,14 @@ footer{
 
 #meny {
     transition: translate 0.3s, display 0.3s allow-discrete, overlay 0.3s allow-discrete;
-    translate: 100% 0;                /* skjult: flyttet ut til høyre */
+    translate: 100% 0;               
 }
 
 #meny:popover-open {
-    translate: 0 0;                   /* åpen: på plass */
+    translate: 0 0;                 
 }
 
 @starting-style {
     #meny:popover-open {
-        translate: 100% 0;            /* start utenfor skjermen når den åpnes */
-    }
+        translate: 100% 0;            
 }
