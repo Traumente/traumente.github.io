@@ -20,7 +20,7 @@ header {
     background-color: purple;
 }
 
-img{
+img.logo{
     max-width: 175px;
     height: auto;
 }
@@ -37,14 +37,20 @@ body {
  
 main{
     max-width: 1100px;
-   height: 1440px;
+   height: 500px;
 }
 
 p{
     position: relative;
     font-size: 1rem;
     color: black;
+    padding: 30px;
 }
+
+h1{
+    padding: 30px;
+}
+
 
 footer{
     background-color: purple;
@@ -131,3 +137,19 @@ footer{
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;  
+}
+
+article.egenskaper{
+    background-color: purple;
+    color: whitesmoke;
+    max-width: 250px;
+    outline: 20px;
+}
